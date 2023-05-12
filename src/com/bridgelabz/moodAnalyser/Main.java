@@ -2,7 +2,7 @@ package com.bridgelabz.moodAnalyser;
 
 public class Main {
     public static void main(String[] args) {
-        String message = "I am feeling sad today!";
+        String message = "I am in Sad Mood";
 
         MoodAnalyser moodAnalyser = new MoodAnalyser();
         String mood = moodAnalyser.analyseMood(message);
